@@ -3,8 +3,7 @@ class Solution {
         List<List<Integer>> list=new ArrayList<>();
         list.add(List.of(1));
         if(numRows==1) return list;
-        list.add(List.of(1,1));
-        for(int i=2;i<numRows;i++){
+        for(int i=1;i<numRows;i++){
             int a=0;
             List<Integer> list1=new ArrayList<>();
            for(int j=0;j<i;j++){
